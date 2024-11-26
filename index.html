@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+       <!-- Cabeçalho -->
+       <header>
+        <div class="logo">Loja Virtual</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#carrinho">Carrinho</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar produtos...">
+        </div>
+    </header>
+
+    <!-- Seção Principal -->
+    <main>
+        <!-- Banner Promocional -->
+        <section class="banner">
+            <h1>Descontos de 20% em todos os produtos!</h1>
+            <p>Oferta válida até o final do mês.</p>
+        </section>
+
+        <!-- Produtos -->
+        <section class="products-section">
+            <div class="filters">
+                <select>
+                    <option value="todos">Todos os Produtos</option>
+                    <option value="eletronicos">Eletrônicos</option>
+                    <option value="roupas">Roupas</option>
+                    <option value="acessorios">Acessórios</option>
+                </select>
+                <select>
+                    <option value="preco">Preço</option>
+                    <option value="popularidade">Popularidade</option>
+                </select>
+            </div>
+
+            <div class="products-list">
+                <!-- Produto 1 -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300" alt="Produto 1">
+                    <h3>Produto 1</h3>
+                    <p>Descrição curta do produto.</p>
+                    <div class="price">R$ 99,99</div>
+                    <button>Adicionar ao Carrinho</button>
+                </div>
+
+                <!-- Produto 2 -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300" alt="Produto 2">
+                    <h3>Produto 2</h3>
+                    <p>Descrição curta do produto.</p>
+                    <div class="price">R$ 199,99</div>
+                    <button>Adicionar ao Carrinho</button>
+                </div>
+
+                <!-- Produto 3 -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300" alt="Produto 3">
+                    <h3>Produto 3</h3>
+                    <p>Descrição curta do produto.</p>
+                    <div class="price">R$ 149,99</div>
+                    <button>Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Endereço: Rua Exemplo, 123 - Fortaleza</p>
+        <p>Telefone: (85) 1234-5678</p>
+        <p>E-mail: contato@lojavirtual.com.br</p>
+    </footer>
+</body>
+</html>
