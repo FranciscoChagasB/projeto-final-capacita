@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Entrar ou Registrar-se - Loja Exemplo</title>
   <link rel="stylesheet" href="src/styles.css">
 </head>
+
 <body>
   <header>
     <div class="header-content">
@@ -14,17 +16,27 @@
         <div class="dropdown">
           <button class="dropbtn">Departamentos</button>
           <div class="dropdown-content">
-            <a href="#brinquedos">Brinquedos</a>
-            <a href="#smartphones">Smartphones</a>
-            <a href="#eletrodomesticos">Eletrodomésticos</a>
-            <a href="#informatica">Informática</a>
-            <a href="#tvvideo">TV e Vídeo</a>
+            <a href="brinquedos.html">Brinquedos</a>
+            <a href="smartphones.html">Smartphones</a>
+            <a href="eletrodomesticos.html">Eletrodomésticos</a>
+            <a href="informatica.html">Informática</a>
           </div>
         </div>
       </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Pesquise produtos..." class="search-input">
+        <button class="search-button">Buscar</button>
+      </div>
+      <div class="right-section">
+        <a href="sobre.html" class="about-button">Sobre Nós</a>
+        <a href="carrinho.html" class="cart-button">
+          Carrinho <span class="cart-count">(0)</span>
+        </a>
+        <a href="entrar_registrar.html" class="user-access">Entre / Registre-se</a>
+      </div>
     </div>
   </header>
-  
+
   <main>
     <div class="form-container">
       <div class="login-section">
@@ -32,10 +44,10 @@
         <form action="login_action.html" method="POST">
           <label for="email">E-mail:</label>
           <input type="email" id="email" name="email" required>
-          
+
           <label for="password">Senha:</label>
           <input type="password" id="password" name="password" required>
-          
+
           <button type="submit">Entrar</button>
         </form>
       </div>
@@ -61,13 +73,14 @@
   <footer>
     <div class="footer-content">
       <p>Contatos: contato@lojaexemplo.com | Telefone: (11) 1234-5678</p>
-      <p>Redes sociais: 
-        <a href="#facebook">Facebook</a> | 
-        <a href="#instagram">Instagram</a> | 
+      <p>Redes sociais:
+        <a href="#facebook">Facebook</a> |
+        <a href="#instagram">Instagram</a> |
         <a href="#twitter">Twitter</a>
       </p>
       <p>&copy; 2024 Loja Exemplo. Todos os direitos reservados.</p>
     </div>
   </footer>
 </body>
+
 </html>

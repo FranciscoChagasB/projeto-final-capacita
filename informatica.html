@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informática</title>
+    <link rel="stylesheet" href="src/informatica/informatica.css">
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+
+<body class="informatica">
+    <header>
+        <div class="header-content">
+            <div class="left-section">
+                <a href="home.html" class="store-logo">Loja Exemplo</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Departamentos</button>
+                    <div class="dropdown-content">
+                        <a href="brinquedos.html">Brinquedos</a>
+                        <a href="smartphones.html">Smartphones</a>
+                        <a href="eletrodomesticos.html">Eletrodomésticos</a>
+                        <a href="informatica.html">Informática</a>
+                    </div>
+                </div>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquise produtos..." class="search-input">
+                <button class="search-button">Buscar</button>
+            </div>
+            <div class="right-section">
+                <a href="sobre.html" class="about-button">Sobre Nós</a>
+                <a href="carrinho.html" class="cart-button">
+                    Carrinho <span class="cart-count">(0)</span>
+                </a>
+                <a href="entrar_registrar.html" class="user-access">Entre / Registre-se</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <aside class="sidebar">
+            <h2>Filtros</h2>
+            <div class="filter-group">
+                <h3>Marca</h3>
+                <label><input type="radio" name="marca" value="dell"> Dell</label>
+                <label><input type="radio" name="marca" value="lenovo"> Lenovo</label>
+                <label><input type="radio" name="marca" value="hp"> HP</label>
+                <label><input type="radio" name="marca" value="asus"> Asus</label>
+                <label><input type="radio" name="marca" value="acer"> Acer</label>
+            </div>
+            <div class="filter-group">
+                <h3>Categoria</h3>
+                <label><input type="checkbox" name="categoria" value="notebook"> Notebooks</label>
+                <label><input type="checkbox" name="categoria" value="desktop"> Desktops</label>
+                <label><input type="checkbox" name="categoria" value="monitor"> Monitores</label>
+                <label><input type="checkbox" name="categoria" value="teclado"> Teclados</label>
+                <label><input type="checkbox" name="categoria" value="mouse"> Mouses</label>
+            </div>
+            <div class="filter-group">
+                <h3>Preço</h3>
+                <label><input type="radio" name="price"> Até R$1.500</label>
+                <label><input type="radio" name="price"> R$1.500 - R$4.000</label>
+                <label><input type="radio" name="price"> Acima de R$4.000</label>
+            </div>
+            <button type="submit">Aplicar Filtros</button>
+        </aside>
+        <section class="product-section">
+            <div class="sorting-container">
+                <label for="sorting" class="sorting-label">Ordenar por:</label>
+                <select id="sorting" class="sorting-dropdown">
+                    <option value="price-asc">Preço crescente</option>
+                    <option value="price-desc">Preço decrescente</option>
+                    <option value="rating">Avaliação</option>
+                    <option value="orders">Pedidos</option>
+                </select>
+            </div>
+            <div class="product-list">
+                <div class="product">
+                    <img src="https://via.placeholder.com/150" alt="Notebook Dell">
+                    <h3>Notebook Dell Inspiron</h3>
+                    <p>R$3.500,00</p>
+                    <p>12x de R$291,67 sem juros</p>
+                    <button>Adicionar ao Carrinho</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/150" alt="Notebook Lenovo">
+                    <h3>Notebook Lenovo Ideapad</h3>
+                    <p>R$2.800,00</p>
+                    <p>12x de R$233,33 sem juros</p>
+                    <button>Adicionar ao Carrinho</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/150" alt="Desktop HP">
+                    <h3>Desktop HP Pavilion</h3>
+                    <p>R$2.200,00</p>
+                    <p>12x de R$183,33 sem juros</p>
+                    <button>Adicionar ao Carrinho</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/150" alt="Monitor Asus">
+                    <h3>Monitor Asus 24”</h3>
+                    <p>R$900,00</p>
+                    <p>6x de R$150,00 sem juros</p>
+                    <button>Adicionar ao Carrinho</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/150" alt="Teclado Logitech">
+                    <h3>Teclado Logitech</h3>
+                    <p>R$150,00</p>
+                    <p>3x de R$50,00 sem juros</p>
+                    <button>Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Contatos: contato@lojaexemplo.com | Telefone: (11) 1234-5678</p>
+            <p>Redes sociais:
+                <a href="#facebook">Facebook</a> |
+                <a href="#instagram">Instagram</a> |
+                <a href="#twitter">Twitter</a>
+            </p>
+            <p>&copy; 2024 Loja Exemplo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

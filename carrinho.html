@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho - Loja Exemplo</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="left-section">
+                <a href="home.html" class="store-logo">Loja Exemplo</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Departamentos</button>
+                    <div class="dropdown-content">
+                        <a href="brinquedos.html">Brinquedos</a>
+                        <a href="smartphones.html">Smartphones</a>
+                        <a href="eletrodomesticos.html">Eletrodomésticos</a>
+                        <a href="informatica.html">Informática</a>
+                    </div>
+                </div>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquise produtos..." class="search-input">
+                <button class="search-button">Buscar</button>
+            </div>
+            <div class="right-section">
+                <a href="sobre.html" class="about-button">Sobre Nós</a>
+                <a href="carrinho.html" class="cart-button">
+                    Carrinho <span class="cart-count">(0)</span>
+                </a>
+                <a href="entrar_registrar.html" class="user-access">Entre / Registre-se</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="cart-section">
+            <h1>Seu Carrinho</h1>
+            <div class="cart-item">
+                <img src="https://via.placeholder.com/150" alt="Produto 1">
+                <div class="cart-item-details">
+                    <h3>Produto 1</h3>
+                    <p>Quantidade: 1</p>
+                    <p>Preço: R$120,00</p>
+                </div>
+                <button class="remove-button">Remover</button>
+            </div>
+            <div class="cart-item">
+                <img src="https://via.placeholder.com/150" alt="Produto 2">
+                <div class="cart-item-details">
+                    <h3>Produto 2</h3>
+                    <p>Quantidade: 2</p>
+                    <p>Preço: R$250,00</p>
+                </div>
+                <button class="remove-button">Remover</button>
+            </div>
+            <div class="cart-total">
+                <h3>Total: R$620,00</h3>
+                <button class="checkout-button">Finalizar Compra</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Redes sociais:
+                <a href="#facebook">Facebook</a> |
+                <a href="#instagram">Instagram</a> |
+                <a href="#twitter">Twitter</a>
+            </p>
+            <p>&copy; 2024 Loja Exemplo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
